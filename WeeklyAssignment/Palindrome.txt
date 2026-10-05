@@ -1,0 +1,33 @@
+package assignments;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num=121;
+		int original=num;
+		int reverse=0;
+		//int count=0;
+		for(;num>0;)
+		{
+			int lastdigit=num%10;
+			reverse=reverse*10+lastdigit;
+			num=num/10;
+			//count++;
+		}
+
+		if(original==reverse)
+		{
+		
+			System.out.println("number is palindrome");
+		}
+		
+		else
+		{
+			System.out.println("number is not palindrome");
+		}
+		
+	}
+
+}

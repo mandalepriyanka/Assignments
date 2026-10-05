@@ -1,0 +1,43 @@
+package dailyassignments;
+
+public class Program1_ASCII {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	/*
+	 * Assignment 1: ASCII Code Program
+		Question:
+		Write a Java program to print the ASCII value of the following characters:
+		•	A 
+		•	a 
+		•	0 
+		•	@ 
+		Expected Output:
+		ASCII value of A = 65
+		ASCII value of a = 97
+		ASCII value of 0 = 48
+		ASCII value of @ = 64
+		
+	 */
+		
+		char chA='A';
+		int numA=chA;
+		System.out.println("ASCII value of A = "+numA);
+		
+		
+		char cha='a';
+		int numa=cha;
+		System.out.println("ASCII value of a = "+numa);
+
+		char cha0='0';
+		int value=cha0;
+		System.out.println("ASCII value of 0 = "+value);
+		
+		char chspecial ='@';
+		int ans=chspecial;
+		System.out.println("ASCII value of 0 = "+ans);
+
+	}
+
+}

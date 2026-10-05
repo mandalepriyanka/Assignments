@@ -1,0 +1,28 @@
+package dailyassignments;
+
+public class Program2_IncreAsteriskPattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * Question:
+			Write a Java program to print the following triangle pattern using only System.out.println() statements.
+			Expected Output:
+			*
+			**
+			***
+			****
+			*****
+		 */
+		
+		System.out.println("*");
+		System.out.println("**");
+		System.out.println("***");
+		System.out.println("****");
+		System.out.println("*****");
+
+
+	}
+
+}

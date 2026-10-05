@@ -1,0 +1,26 @@
+package assignments;
+
+public class Program2_ToTalPrice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		/* •Product Price = 499.50
+					•Quantity = 3
+					Calculate the total price using the variables and print:
+					Product Price: 499.50
+					Quantity: 3
+					Total Price: 1498.50
+
+				 */
+				
+				float ProductPrice=499.50f;
+				int Quantity=3;
+				double TotalPrice=ProductPrice*Quantity;
+			
+				System.out.println("TotalPrice: "+TotalPrice);		
+				
+	}
+
+}

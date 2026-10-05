@@ -1,0 +1,33 @@
+package assignments;
+
+public class Program1_PrintEmpDetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Q1 Create a Java program to store and print the following employee details:
+		 * 	•	Employee ID
+			•	Age
+			•	Salary
+			•	Department Initial
+			•	Whether the employee is permanent
+
+		 */
+		
+		int EmployeeID=1001;
+		int Age=28;
+		double Salary=55000.50;
+		char Department='T';
+		boolean Permanent=true;
+		
+		//To print all the required details
+		System.out.println("Employee Id: "+EmployeeID);
+		System.out.println("Age: "+Age);
+		System.out.println("Salary: "+Salary);
+		System.out.println("Department: "+Department);
+		System.out.println("Permanent: "+Permanent);
+
+	
+	}
+
+}

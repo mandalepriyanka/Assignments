@@ -1,0 +1,25 @@
+package dailyassignments;
+
+public class Program3_TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * Question:
+			Create a Java program that:
+			1.	Stores 10.75 in a double variable. 
+			2.	Explicitly typecasts it to an int variable. 
+			3.	Prints both values.
+
+		 */
+		
+		double value=10.75;
+		int intvalue=(int)value;
+		System.out.println("Double value: "+value);
+		System.out.println("int value: "+intvalue);
+	
+	
+	}
+
+}

@@ -1,0 +1,26 @@
+package assignments;
+
+public class ReverseNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Write a Java program to reverse a given number using a loop.
+Input:12345 Expected Output:54321
+
+		 */
+		
+		int number=12345;
+		int reverse=0;
+		for(;number!=0;number=number/10)//1234,123
+		{
+			int digit = number%10;//5
+			reverse=reverse*10+digit;
+		}
+			System.out.print(reverse);
+	
+
+	}
+
+}

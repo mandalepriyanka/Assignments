@@ -1,0 +1,43 @@
+package dailyassignments;
+
+public class Program4_PositiveOrNegativeNo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		/*
+		 * Positive or Negative
+			Write a Java program to check whether the given number 10 is positive or negative.
+			Sample Output:
+			The number is positive.
+		 */
+		
+		int Number=10;
+		if(Number > 0)
+			System.out.println("The number is positive");
+		else
+		{
+			System.out.println("The number is negative");
+		}
+		
+		
+		/*
+		 * Even or Odd
+			Write a Java program to check whether the given number 15 is even or odd.
+			Sample Output:
+			The number is odd.
+		 */
+		
+		int evenodd=15;
+		if(evenodd % 2==0)
+			System.out.println("Given number is even");
+		else
+			{
+			System.out.println("Given number is odd");
+			}
+		
+		
+	}
+
+}
