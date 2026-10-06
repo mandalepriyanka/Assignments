@@ -1,0 +1,91 @@
+package dailyassignments;
+
+public class InvertedRightAngleTriangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 1)Inverted Right-Angled Triangle
+			For n = 5:
+			*****
+			****
+			***
+			**
+			*
+
+		 */
+
+		
+		//Rows
+				for(int i=5;i>=1;i--)
+				{
+										
+					//stars
+					for(int j=1;j<=i;j++)
+					{
+				
+						System.out.print("*");
+					}
+					System.out.println("");
+				}
+				
+				
+				/*
+				 * 2)Increasing Number Triangle
+					For n = 5:
+					1
+					12
+					123
+					1234
+					12345
+				 */
+				
+				System.out.println();
+				
+				
+				//number of rows
+				for(int i=1;i<=5;i++)
+				{
+					int num=1;
+										
+					//numbers
+					for(int j=1;j<=i;j++)
+					{
+				
+						System.out.print(num);
+						num++;
+					}
+				
+					System.out.println(" ");
+				}
+				
+				
+				/*
+				 * 3)Repeated Number Triangle
+					1
+					22
+					333
+					4444
+					55555
+				 */
+				
+				System.out.println("");
+				
+				int num=1;
+				//number of rows
+				for(int i=1;i<=5;i++)
+				{
+														
+					//numbers
+					for(int j=1;j<=i;j++)
+					{
+				
+						System.out.print(num);
+						
+					}
+					num++;
+					System.out.println(" ");
+				}
+	}
+
+}
