@@ -1,0 +1,49 @@
+package dailyassignments;
+
+public class FindEvenAndOdd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		/*
+		 * Count Even and Odd Numbers
+			Write a Java program to count how many even and odd numbers are present in an integer array.
+			Input:
+			{11, 24, 35, 42, 56, 67, 80, 93}
+			Expected Output:
+			Even numbers: 4
+			Odd numbers: 4
+		 */
+		
+		int[] arrNum = new int[8];
+		arrNum[0] = 11;
+		arrNum[1] = 24;
+		arrNum[2] = 35;
+		arrNum[3] = 42;
+		arrNum[4] = 56;	
+		arrNum[5] = 67;	
+		arrNum[6] = 80;	
+		arrNum[7] = 93;
+		int EvenCnt = 0;
+		int OddCnt = 0;
+		
+		for(int index = 0;index<arrNum.length;index++)
+		{
+			if(arrNum[index]%2==0)
+			{
+				EvenCnt++;
+			}
+			else
+			{
+				OddCnt++;
+			}
+		}
+		
+		System.out.println("Even number count is:"+EvenCnt);
+		
+		System.out.println("Odd number count is:"+OddCnt);
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+package dailyassignments;
+
+public class SkipEvenNoUsingContBreak {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		/*
+		 * Skip Even Numbers
+Write a Java program to print numbers from 1 to 20 using a do-while loop.
+Requirements:
+- Use continue to skip all even numbers.
+- Print only odd numbers.
+- Use break to stop the loop when the number becomes greater than 15.
+Expected Output:
+1
+		 */
+		int Num = 1;
+		
+		do
+		{					
+			
+			if(Num%2==0)//1false
+			{
+				Num++;//3//5//7//9//11, 13,15,17,19
+				continue;
+			}
+			if(Num>15)//3, 5,7, 9, 11, 
+			{
+				break;
+			}
+			System.out.print(Num+" ");//1, 3, 5, 7, 9
+			Num++;//2//4//6, 8,10,12,14, 16, 18
+			
+		}while(Num<=20);
+	
+	
+	}
+
+}
