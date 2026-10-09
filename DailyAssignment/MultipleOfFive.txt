@@ -1,59 +1,37 @@
 package dailyassignments;
 
-public class FindDupNosInArray {
+public class MultiplicationBy5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 		/*
-		 * Find Duplicate Elements
-
-			Write a Java program to identify and print all duplicate elements in an array. 
-			Each duplicate element should be printed only once.
-			Input:
-			{10, 20, 30, 20, 40, 10, 50, 30, 60}
-			Expected Output:
-			Duplicate elements: 10 20 30
+		 *  Print Numbers and Their Multiplication by 5
+		 Take a number N and print each number from 1 to N along with its value after multiplying it by 5.
+		 Sample Input: N = 5
+		 Output:
+		 1 â†’ 5
+		 2 â†’ 10
+		 3 â†’ 15
+		 4 â†’ 20
+		 5 â†’ 25
 		 */
-		int[] arrDup = new int[9];
-		arrDup[0] = 10;
-		arrDup[1] = 20;
-		arrDup[2] = 30;
-		arrDup[3] = 20;
-		arrDup[4] = 40;
-		arrDup[5] = 10;
-		arrDup[6] = 50;
-		arrDup[7] = 30;
-		arrDup[8] = 60;
-		boolean Duplicate = false;
 		
-		for(int arrIter = 0;arrIter<arrDup.length;arrIter++)
+		
+		int num=1;
+		int Ans = 0;
+		int n=5;
+		while(num<=5)
 		{
-			for(int arrCompIter = arrIter+1;arrCompIter<arrIter;arrCompIter++)
-			{
-				if(arrDup[arrIter]==arrDup[arrCompIter])
-				{
-					System.out.println(arrIter+" ");
-					Duplicate = true;
-					break;
-				}
-			}
-			if(Duplicate)
-			{
-				continue;
-			}
-			for(int arrCompIter=arrIter+1;arrCompIter<arrDup.length;arrCompIter++)
-			{
-				if(arrDup[arrIter]==arrDup[arrCompIter])
-				{
-					System.out.print(arrDup[arrIter] +" ");
-					break;
-				}
-			}
-			
+			Ans = num*n;
+			System.out.println(num+" "+ Ans);
+			num++;
 		}
-		
+					
+		System.out.println();
 		
 	}
 
-}
+	}
+
+
