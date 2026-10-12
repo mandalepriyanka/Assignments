@@ -1,0 +1,28 @@
+package day2.part2;
+
+public class MissingNumInArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] arrNum = new int[5];
+		arrNum[0] = 1;
+		arrNum[1] = 2;
+		arrNum[2] = 4;
+		arrNum[3] = 5;
+		arrNum[4] = 6;
+		int Sum = 0;
+		int TotalNum = 6;//this value is 6 as last element of array is 6
+		for(int Iter =0;Iter<arrNum.length; Iter++)
+		{
+			Sum = Sum + arrNum[Iter];
+					
+		}
+		int expNum = TotalNum*(TotalNum+1)/2;
+		int Ans = expNum - Sum;
+		System.out.println(Ans);
+		
+		
+	}
+
+}

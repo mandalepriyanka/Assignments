@@ -1,0 +1,42 @@
+package assignments;
+
+public class AllZerosToTheEnd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * Move All Zeros to the End
+			Write a Java program to move all zeros to the end of an array while maintaining the relative order of the non-zero elements.
+			
+			**Input:**
+			{0, 5, 0, 3, 8, 0, 2, 9}`
+		 */
+		
+		int[] arrNum = {0, 5, 0, 3, 8, 0, 2, 9};
+		//arrNum[0]=0;
+		int index = 0;
+		for(int Iter=0;Iter<arrNum.length;Iter++)
+		{
+			if(arrNum[Iter]!=0)//0-0,1-5
+			{
+				arrNum[index] = arrNum[Iter];//5
+				index++;
+			}
+			
+		}
+		System.out.println(index);
+		while(index<arrNum.length)
+		{
+			arrNum[index] = 0;
+			index++;
+		}
+			
+		//System.out.println(arrNum[index]);
+		for(int Iter=0;Iter<arrNum.length;Iter++)
+		{
+			System.out.println(arrNum[Iter]);
+		}
+	}
+
+}

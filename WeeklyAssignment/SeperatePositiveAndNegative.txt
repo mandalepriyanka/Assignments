@@ -1,0 +1,46 @@
+package assignments;
+
+public class SeperatePositiveAndNegativeNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * Write a Java program to print all positive numbers first, followed by all negative numbers and zeros, while maintaining the original order within each group.
+
+			Input:
+			{-4, 7, 0, -2, 9, 0, -8, 5}
+			
+			Expected Output:
+			7 9 5 -4 -2 -8 0 0
+		 */
+		int [] arr = {-4, 7, 0, -2, 9, 0, -8, 5};
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]>0 )
+			{
+				System.out.print(arr[i]+ " ");
+				
+			}
+		}
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]<0 )
+			{
+				System.out.print(arr[i]+ " ");
+				
+			}
+		}
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]==0 )
+			{
+				System.out.print(arr[i]+ " ");
+				
+			}
+		}
+	}
+
+}
