@@ -1,0 +1,42 @@
+
+package dailyassignments;
+
+class Employee
+{
+	int empId;
+	String empName;
+	double salary;
+	
+
+Employee(int empId1, String empName1, double salary1)
+{
+		
+	this.empId = empId1;
+	this.empName = empName1;
+	this.salary = salary1;
+
+	
+}
+
+
+void displayDetails()
+{
+	System.out.println(empId + " " + empName + " "+ salary);
+	
+}
+
+
+public class ThisAndFinalKeyword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee obj = new Employee(100, "Priya", 100.10);
+		obj.displayDetails();
+		Employee obj1 = new Employee(101, "Siya", 200.10);
+		obj1.displayDetails();
+		
+	}
+
+}
+}

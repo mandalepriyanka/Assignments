@@ -1,0 +1,67 @@
+package dailyassignments;
+
+//import dailyassignments.Employee.Company.Employee1;
+
+//use of final keyword
+/*class Company
+*{
+	final String companyName = "Tech Solution Private Ltd.";
+	final int MAX_EMPLOYEES = 100;
+	
+	
+	void Display()
+	{
+		System.out.println(MAX_EMPLOYEES);
+	}
+}*/
+class Emp
+{
+	final void calculateBonus()
+	{
+		System.out.println("emp bonus calculated.");
+	}
+}
+	
+class Manager extends Emp
+{
+	//override final method
+	//void calculateBonus()
+	//{
+		//System.out.println("Manager bonus calculated");
+	//}
+}
+
+
+final class SecurityPolicy
+{
+	void DisplayPolicy()
+	{
+		
+	}
+
+}
+
+//class AdminPolicy extends SecurityPolicy
+//{
+
+	
+//}
+
+
+public class FinalKeyword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Company c = new Company();
+		//c.Display();
+		//c.companyName = "ABC";
+		//c.MAX_EMPLOYEES = 200;
+		
+		Manager m = new Manager();
+		m.calculateBonus();
+		
+	}
+
+}
+
