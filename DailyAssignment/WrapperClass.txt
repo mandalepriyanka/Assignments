@@ -1,0 +1,38 @@
+package dailyassignments;
+
+public class CharacterWrapperClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		char alpha = '7';
+		if(Character.isDigit(alpha))
+			System.out.println(alpha + " is a Digit");
+		else
+			System.out.println("Not digit");
+		
+		
+		
+		char letter = 'A';
+		if(Character.isLetter(letter))
+			System.out.println("A is a letter");
+		else
+			System.out.println("Not a digit");
+		
+		
+		char lCase = 'b';
+		if(Character.isLowerCase(lCase))
+		{
+			char caps = Character.toUpperCase(lCase);	
+									
+			System.out.println("Converted letter b to uppercase: "+caps);
+		}
+		else
+			System.out.println("Not a digit");
+		
+			
+		
+	}
+
+}
